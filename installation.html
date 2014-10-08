@@ -54,14 +54,18 @@
 <h1>1. Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
 <div class="warning admonition">
 <p class="first admonition-title">Prerequisites</p>
-<p class="last">NumPy, SciPy, the FAST executable.  For some wrappers, the fusedwind framework.</p>
+<blockquote class="last">
+<div><p>General: NumPy, SciPy, Swig, pyWin32, MatlPlotLib, Lxml, OpenMDAO</p>
+<p>Wind Plant Framework: FUSED-Wind (Framework for Unified Systems Engineering and Design of Wind Plants)</p>
+<p>Supporting python packages: Pandas, Algopy, Zope.interface, Sphinx, Xlrd, PyOpt, py2exe, Pyzmq, Sphinxcontrib-bibtex, Sphinxcontrib-zopeext, Numpydoc, Ipython</p>
+</div></blockquote>
 </div>
-<p>Clone the repository at <a class="reference external" href="https://github.com/WISDEM/AeroelasticSE">https://github.com/WISDEM/AeroelasticSE</a> or download the releases and uncompress/unpack.</p>
-<p>Install the AeroelasticSE plugin with the following command.</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python setup.py install
+<p>Clone the repository at <a class="reference external" href="https://github.com/WISDEM/AeroelasticSE">https://github.com/WISDEM/AeroelasticSE</a> or download the releases and uncompress/unpack from the website link at the bottom the <a href="#id1"><span class="problematic" id="id2">`AeroelasticSE site&lt;http://nwtc.nrel.gov/AeroelasticSE&gt;`_</span></a>.</p>
+<p>Install the AeroelasticSE plugin with the following command from an activated OpenMDAO environemnt.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>plugin install
 </pre></div>
 </div>
-<p>To check if installation was successful try to import the module</p>
+<p>To check if installation was successful try to import the module from an activated OpenMDAO environment.</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python -c <span class="s2">&quot;import AeroelasticSE&quot;</span>
 </pre></div>
 </div>
@@ -131,7 +135,7 @@ source modules).</p>
     </div>
     <div class="footer">
         &copy; Copyright 2014, NREL.
-      Last updated on Oct 05, 2014.
+      Last updated on Oct 07, 2014.
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
     </div>
   </body>
